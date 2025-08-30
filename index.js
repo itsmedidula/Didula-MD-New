@@ -1362,4 +1362,5 @@ async function initialize() {
 // Start the application
 initialize();
 
+}  // <-- missing closing brace
 module.exports = { sessions, newd };
