@@ -23,7 +23,7 @@ const moment = require('moment-timezone');
 const path = require('path');
 
 // Configuration
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://Didula:DidulaMD@didulamd.mgwjqat.mongodb.net/Didulamd?retryWrites=true&w=majority';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://Didula:DidulaMD@didulamd.mgwjqat.mongodb.net/Didulamdnew?retryWrites=true&w=majority';
 process.env.NODE_ENV = 'production';
 process.env.PM2_NAME = 'devil-tech-md-session';
 
