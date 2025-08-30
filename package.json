@@ -1,10 +1,7 @@
 {
-  "name": "yout bot name",
+  "name": "myapp",
   "version": "1.0.0",
-  "description": "A WhatsApp bot created using Node.js",
-  "main": "index.js",
-  "scripts": {
-  "start": "node index.js"
+  "main": "index.js"
 }
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
