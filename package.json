@@ -4,10 +4,8 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Your Bot Name",
-    "stop": "pm2 stop Your Bot name",
-    "restart": "pm2 restart Your Bot name"
-  },
+  "start": "node index.js"
+}
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
     "@adiwajshing/keyed-db": "^0.2.4",
