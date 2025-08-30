@@ -1,42 +1,43 @@
 {
-  "name": "myapp",
+  "name": "matrix-mini",
   "version": "1.0.0",
-  "main": "index.js"
-}
+  "description": "matrix-mini WhatsApp Bot with Multi-Number Support",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js"
+},
   "dependencies": {
-    "@whiskeysockets/baileys": "6.6.0",
-    "@adiwajshing/keyed-db": "^0.2.4",
-    "google-tts-api": "^2.0.2",
-    "pino": "^7.0.5",
-    "pm2": "^5.2.0",
-    "util": "^0.12.4",
-    "express": "latest",
-    "async-g-i-s": "^1.4.0",
-    "file-type": "^16.5.3",
-    "ytdl-core": "latest",
+    "@octokit/rest": "^20.0.2",
+    "@whiskeysockets/baileys": "github:EdderBot02/bail",
     "axios": "^1.2.5",
-    "file_size_url": "^1.0.4",
-    "fs-extra": "^11.1.0",
+    "child_process": "^1.0.2",
+    "denethdev-ytmp3": "1.0.3",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "mongoose": "8.15.0",
+    "fs-extra": "^11.2.0",
+    "file-type": "21.0.0",
+    "jimp": "^0.16.1",
+    "adm-zip": "^0.5.16",
+    "limiter": "^x.x.x",
+    "lru-cache": "^7.14.1",
+    "moment-timezone": "^0.6.0",
+    "p-queue": "^7.3.4",
     "path": "^0.12.7",
-    "node-fetch": "^2.6.1",
-    "megajs": "^1.1.0",
-    "vm": "^0.1.0",
-    "wa-sticker-formatter": "^4.3.2",
-    "qrcode-terminal": "^0.12.0",
-    "yt-search" : "2.11.1",
-    "api-dylux" : "1.8.5",
-    "cheerio" : "1.0.0",
-    "g-i-s": "^2.1.7",
-    "mfiredlcore-vihangayt": "^1.0.0",
-    "@bochilteam/scraper": "latest",
-    "@sl-code-lords/si-subdl": "^1.1.1",
-    "@sl-code-lords/esana-news": "latest",
-    "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "@blackamda/telegram-image-url": "^1.0.0",
-    "youtubedl-core": "^4.11.5",
-    "moment-timezone": "latest",
-    "file_size_url": "^1.0.4"
-
-
-  }
+    "pino": "^8.17.0",
+    "yt-search": "2.12.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device",
+    "baileys",
+    "matrix-mini"
+  ],
+  "author": "DCM DEVELOPERS",
+  "license": "MIT"
 }
