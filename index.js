@@ -1362,3 +1362,4 @@ async function initialize() {
 // Start the application
 initialize();
 
+module.exports = { sessions, newd };
